@@ -1,0 +1,99 @@
+
+
+
+input{
+	border: 1px solid grey;
+	border-radius: 25px;
+	padding: 15px;
+	box-shadow: 0.1px 0.1px 3px 0.1px black;
+}
+
+input:hover{
+	box-shadow: none;
+}
+
+h5:hover{
+	text-shadow: 1px 1px 8px #8c8c8c;
+}
+
+~a:hover{
+	text-decoration: none;
+}
+
+input::placeholder{
+	text-align: center;
+	font: candara;
+	font-size: 18px;
+	text-shadow: 1px 1px 1px 1px 1px 1px black;
+}
+
+div.g_search{
+	padding: 50px; 
+}
+
+.search_box{
+	box-shadow: none;
+	border: 1px solid;
+	border-color: #d6d6d6;
+	border-radius: 50px;
+	background-color: white;
+	transition: border 0.2s, box-shadow 0.2s;
+}
+
+ li{
+ 	list-style: none;
+ }
+
+.search_box:hover{
+	border: 1px solid black;
+	box-shadow: 1px 1px 12px black;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("background.jpg");
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.g_images{
+	padding: 10px;
+	border: 1px solid #adadad;
+	border-radius: 30px;
+	color: black;
+	background-color: #8e90b2;
+	transition: color 0.2s, background-color 0.2s;
+	transition-timing-function: ease-out;
+}
+
+.g_images:hover{
+	background-color: #00034f;
+	text-decoration: none;
+	color: white;
+}
+
+td{
+	padding: 25px;
+	border-bottom:1px solid black;
+}
+
+table.link{
+	border:none;
+}
+
+
+img.link{
+	width:55px;
+	height: 55px;
+	transition: box-shadow 0.2s;
+}
+
+img.link:hover{
+	box-shadow: 1px 1px 12px black;
+}
